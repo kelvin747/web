@@ -1,0 +1,68 @@
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+body {
+    height: 125vh;
+    background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+    position: sticky;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: floralwhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: -1;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li{
+    margin: 20px;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-family: cursive;
+}
+p{
+    display: contents;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Ftgstat.com%2Fchannel%2F%40kelwiN_Official&psig=AOvVaw2HaP_t89kOdwbX9CfFxu3Y&ust=1598180763996000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjN3bvVrusCFQAAAAAdAAAAABAD");
+    font-family: Bahnschrift;
+    color: deepskyblue;
+}
+
+.header li a:hover{
+    background-color: aqua;
+    color: aqua;
+}
+
+.header li a.active{
+    background-color: deepskyblue;
+    color: green;
+}
